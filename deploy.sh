@@ -1,8 +1,8 @@
 #!/bin/sh
 ssh root@NODEJSDROPLETIP<<EOF
-   cd /var/www/html/
-   git pull origin main
-   npm install --production
-   pm2 restart all
-   exit
+   sudo cd /var/www/html/
+   sudo git pull origin main
+   sudo npm install --production
+   sudo pm2 restart all
+   sudo exit
 EOF
