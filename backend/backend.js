@@ -15,8 +15,8 @@ app.use(cors());
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); // To parse the incoming requests with JSON payloads
-app.listen(80, function () {
-  console.log("server listening on port 80 ...");
+app.listen(800, function () {
+  console.log("server listening on port 800 ...");
 });
 
 const twitterBaseUrl = "https://api.twitter.com/2";
