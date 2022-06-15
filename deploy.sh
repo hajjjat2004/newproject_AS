@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh root@192.168.32.132<<EOF
+ssh node@192.168.32.132<<EOF
    sudo cd /var/www/html/
    sudo git pull origin main
    sudo npm install --production
